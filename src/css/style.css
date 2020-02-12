@@ -1,0 +1,1525 @@
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: local('Montserrat Medium'), local('Montserrat-Medium'),
+		url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-ExtraBold';
+	src: url('../fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+		url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url('../fonts/Montserrat-Black.eot');
+	src: local('Montserrat Black'), local('Montserrat-Black'),
+		url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Black.woff') format('woff'),
+		url('../fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.navbar-toggler {
+	padding: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(153, 0, 204, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	width: 25px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.header {
+	height: 138px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.navbar {
+	width: 100%;
+	color: #414141;
+	font-family: 'Montserrat-Bold';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+
+.navbar-nav {
+    width: 100%;
+	justify-content: space-between;
+}
+
+.header-phone {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.fone_icon_header {
+	width: 20px;
+	height: 23px;
+	margin: 10px 14px 0 0;
+}
+
+.header-phone a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.header-phone-text {
+	color: #414141;
+	font-family: 'Montserrat-Bold';
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 47px;
+}
+
+.header-basket {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.basket_icon_heade {
+	width: 50px;
+	height: 50px;
+}
+
+.null {
+	color: #414141;
+	font-family: 'Montserrat-Medium';
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 12px;
+}
+
+.carousel {
+	position: relative;
+}
+
+.bg-top-carousel-item {
+    background: url(../img/bg_main.png) center center/cover no-repeat;
+	height: 580px;
+}
+
+.carousel-caption-slide {
+	text-align: left;
+	top: 5%;
+	padding: 0;
+}
+
+.carousel-caption-title {
+	width: 551px;
+	color: #ffffff;
+	font-family: 'Montserrat-ExtraBold';
+	font-size: 88px;
+	font-weight: 400;
+	text-align: left;
+}
+ 
+.line_icon {
+	width: 98px;
+	height: 2px;
+	margin-right: 16px;
+}
+
+.carousel-caption-body {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.carousel-caption-list a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Montserrat-Regular';
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 98px;
+}
+
+.carousel-caption-list a:hover {
+	text-decoration: none;
+}
+
+.basket_icon_btn {
+	margin-right: 14px;
+}
+
+.carousel-caption-btn {
+	width: 212px;
+	height: 63px;
+	border-radius: 32px;
+	background-color: #ffd200;
+	margin-left: 0;
+	color: #272727;
+	font-family: 'Montserrat-Bold';
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.carousel-caption-subtext {
+	color: #272727;
+	font-family: 'Montserrat-Bold';
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 60px;
+}
+
+.carousel-caption-text {
+	color: #272727;
+	font-family: 'Montserrat-Black';
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 47px;
+}
+
+.carousel-caption-price {
+	background-image: url(../img/bg_main_price.png);
+	width: 230px;
+	height: 225px;
+    position: absolute;
+    top: 190px;
+    left: 445px;
+    text-align: center;
+}
+
+.carousel-control-right, .carousel-control-left {
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin-bottom: 75px;
+	margin-left: 220px;
+	opacity: 1;
+	width: 50px;
+	z-index: 1000;
+}
+
+.white_arrow_left_icon {
+	background-image: url(../img/white_arrow_left_icon.png);
+	width: 24px;
+	height: 35px;
+}
+
+.white_arrow_right_icon {
+	background-image: url(../img/white_arrow_right_icon.png);
+	width: 24px;
+	height: 35px;
+}
+
+.carousel-control-right {
+    left: 46px;
+}
+
+.picca, .sushi, .snack, .drinks  {
+	margin-top: 70px;
+}
+
+.arrow_left_icon {
+	background-image: url(../img/arrow_left_icon.png);
+}
+
+.arrow_right_icon{
+	background-image: url(../img/arrow_right_icon.png);
+}
+
+.carousel-control-left-picca, .carousel-control-right-picca {
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-left: 1005px;
+	margin-top: 105px;
+	opacity: 1;
+	width: 50px;
+}
+
+.picca-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 86px 0 73px 0;
+}
+
+.picca-header-btn, .sushi-header-btn, .snack-header-btn, .drinks-header-btn {
+	margin-right: 140px;
+	width: 118px;
+	border-radius: 3px;
+	border: 1px solid #414141;
+	background-color: #ffffff;
+}
+
+.picca-header-body, .sushi-header-body, .snack-header-body, .drinks-header-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.picca_icon, .sushi_icon, .snack_icon, .drinks_icon {
+	margin-right: 24px;
+}
+
+.picca-header-title, .sushi-header-title, .snack-header-title, .drinks-header-title {
+	font-family: 'Montserrat-ExtraBold';
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 47px;
+	color: #414141;
+}
+
+.picca-card-deck, .sushi-card-deck, .snack-card-deck, .drinks-card-deck {
+	margin-bottom: 89px;
+}
+
+.picca-card, .sushi-card, .snack-card, .drinks-card {
+	text-align: center;
+	border: none;
+}
+
+.picca-card-img-top, .sushi-card-img-top, .snack-card-img-top, .drinks-card-img-top {
+	border: 1px solid #f2f2f2;
+}
+
+.picca-card-body, .sushi-card-body, .snack-card-body, .drinks-card-body {
+	padding: 0;
+}
+
+.picca-card-title, .sushi-card-title, .snack-card-title {
+	margin: 43px 0 17px 0;
+	color: #272727;
+	font-family: 'Montserrat-Bold';
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.picca-card-text {
+	margin: 17px 0 15px 0;
+	font-family: 'Montserrat-Regular';
+	width: 100%;
+	height: 60px;
+	color: #858585;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.picca-card-price, .sushi-card-price, .snack-card-price, .drinks-card-price {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+.picca-card-price-btn {
+	width: 136px;
+	height: 45px;
+	border-radius: 22px;
+	background-color: #f7f7f7;
+	color: #2f2f2f;
+	font-family: 'Montserrat-Bold';
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18.4px;
+}
+
+.picca-card-price-btn:focus {
+	background-color: #9900cc;
+
+}
+
+.picca-card-price-btn-text, .sushi-card-price-btn-text, .snack-card-price-btn-text, .drinks-card-price-btn-text {
+	font-family: 'Montserrat-Regular';
+	color: #858585;
+	font-weight: 400;
+}
+
+.picca-card-cart-btn, .picca-card-cart-btn:hover, .sushi-card-cart-btn, .sushi-card-cart-btn:hover, .snack-card-cart-btn, .snack-card-cart-btn:hover, .drinks-card-cart-btn, .drinks-card-cart-btn:hover {
+	width: 135px;
+	height: 41px;
+	border-radius: 21px;
+	background-color: #9900cc;
+	color: #ffffff;
+	font-family: 'Montserrat-Medium';
+	font-size: 13px;
+	font-weight: 500;
+	padding: 8px;
+	
+}
+
+.sushi-header, .snack-header, .drinks-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 73px;
+}
+
+.carousel-control-left-sushi, .carousel-control-right-sushi, .carousel-control-left-snack, .carousel-control-right-snack, .carousel-control-left-drinks, .carousel-control-right-drinks {
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-left: 1005px;
+	margin-top: 20px;
+	opacity: 1;
+	width: 50px;
+}
+
+.sushi-card-text {
+	margin: 17px 0 15px 0;
+	font-family: 'Montserrat-Regular';
+	width: 100%;
+	height: 75px;
+	color: #858585;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.sushi-card-price-btn, .snack-card-price-btn, .drinks-card-price-btn {
+	width: 276px;
+	height: 45px;
+	border-radius: 22px;
+	background-color: #f7f7f7;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.sushi-card-price-btn:focus, .snack-card-price-btn:focus, .drinks-card-price-btn:focus {
+	background-color: #9900cc;
+}
+
+.snack-card-text {
+	margin: 17px 0 15px 0;
+	font-family: 'Montserrat-Regular';
+	width: 100%;
+	height: 34px;
+	color: #858585;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.drinks-card-title {
+	margin: 24px 0 27px 0;
+	color: #272727;
+	font-family: 'Montserrat-Bold';
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.founder {
+	background: url('../img/bg_2.png') center center/cover no-repeat;
+	width: 100%;
+	min-height: 788px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.founder-card {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.bg_2_photo {
+	max-width: 100%;
+    margin: 10% 0 0 10%;
+}
+
+.founder-body {
+	width: 561px;
+	margin: 55px 65px 0 0;
+	padding: 0 0 30px 20px;
+}
+
+.founder-title {
+	background: url('../img/bg_2_title.png') center center/cover no-repeat;
+	background-size: auto;
+	color: #ffffff;
+	font-family: 'Montserrat-Black';
+	font-size: 36px;
+	font-weight: 400;
+	padding: 55px;
+	width: 578px;
+	height: 184px;
+}
+
+.founder-subtitle {
+	color: #ffffff;
+	font-family: 'Montserrat-Black';
+	font-weight: 400;
+	line-height: 21px;
+	font-size: 26px;
+}
+
+.founder-text {
+	color: #262626;
+	font-family: 'Montserrat-Regular';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.stock-main-title {
+	margin-top: 83px;
+	color: #414141;
+	font-family: 'Montserrat-ExtraBold';
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.stock-carousel-inner {
+	padding: 0 110px 0 110px;
+	margin: 74px 0 74px 0;
+}
+
+.stock-card {
+	border: none;
+}
+
+.stock-card-img-overlay{
+	padding: 0;
+}
+
+.stocks_logo {
+	width: 66px;
+	height: 49px;
+	margin: 37px 0 21px 24px;
+}
+
+.stock-card-text {
+	width: 230px;
+	margin-left: 25px;
+	color: #ffffff;
+	font-family: 'Montserrat-Regular';
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.footer-main {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+
+.logo_footer {
+	width: 256px;
+	margin: 65px 0 55px 0;
+}
+
+.bg-footer {
+	background: url(../img/bg_footer_color.png);
+	background-size: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-info-body {
+	width: 100%;
+    padding-left: 30%;
+}
+
+.footer-geo, .footer-phone, .footer-email, .footer-clock, .footer-delivery, .footer-booking {
+	margin-bottom: 40px;
+}
+
+.footer-icon {
+	float: left;
+	margin: 8px 18px 0 0;
+}
+
+.footer-info-subtext a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer-info-subtext a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer-info-text {
+	color: #ffffff;
+	font-family: 'Montserrat-Bold';
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.footer-info-subtext {
+	font-family: 'Montserrat-Regular';
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 15px;
+	margin: 0;
+	margin-left: 43.5px;
+}
+
+.footer-geo-card {
+	background: url(../img/card_geo_img.png);
+	background-size: auto;
+	height: 648px;
+}
+
+.footer-geo-card-body {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	height: 105px;
+}
+
+.footer-geo-card-text {
+	width: 260px;
+	padding-left: 20px;
+	margin: 0;
+	color: #595959;
+	font-family: 'Montserrat-Regular';
+	font-size: 13px;
+	font-weight: 400;
+}
+
+@media (max-width: 1199.98px) {
+	.navbar {
+		font-size: 13px;
+	}
+
+	.carousel-caption-title {
+		font-size: 80px;
+	}
+
+	.carousel-caption-list a {
+		font-size: 15px;
+	}
+
+	.sushi-card-text {
+		width: 100%;
+		height: 90px;
+	}
+
+	.snack-card-text {
+		height: 45px;
+	}
+
+	.founder-card {
+		flex-direction: column-reverse;
+	    align-items: center;
+	}
+
+	.stocks_logo {
+		width: 60px;
+	    height: 45px;
+	    margin: 37px 0 10px 24px;
+	}
+
+	.stock-card-text {
+		width: auto;
+		margin-left: 6%;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.header {
+		height: 72px;
+	}
+
+	.logo_header {
+		width: 170px;
+	}
+
+	.header-phone {
+		width: 200px;
+	}
+
+	.navbar {
+		z-index: 1000;
+		justify-content: space-around;
+		background: white;
+		height: 100%;
+	}
+
+	.navbar-expand-lg .navbar-nav {
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	    width: 100%;
+	    justify-content: space-around;
+	}
+
+	.navbar-expand-lg .navbar-nav {
+		margin-top: 0;
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none;
+	}
+
+	.carousel-caption-slide {
+		left: 5%;
+	}
+
+	.carousel-control-right, .carousel-control-left {
+		margin-left: 10%;
+	}
+
+	.picca-card-text, .sushi-card-text, .snack-card-text, .drinks-card-text {
+		font-size: 10px;
+	}
+
+	.picca-card-price-btn {
+		font-size: 11px;
+	}
+
+	.stock {
+		padding-bottom: 138px;
+	}
+
+	.stock-main-title {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 47px;
+		margin-top: 63px;
+	}
+
+	.carousel-control-prev-stock_2, .carousel-control-next-stock_2 {
+		height: 50px;
+		margin-top: 80%;
+	}
+
+	.carousel-control-prev-stock_2 {
+		left: 30%;
+	}
+
+	.carousel-control-next-stock_2 {
+		right: 30%;
+	}
+
+	.stock {
+		padding: 138px;
+	}
+
+	.stock-card_2 {
+		border: none;
+	}
+
+	.stocks_logo_2 {
+		width: 80px;
+		margin: 31px 0 19px 20px;
+	}
+
+	.stock-card-text_2 {
+		margin-left: 15px;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+
+	.footer-info-body {
+		padding: 10%;
+	}
+
+	.footer-info-text, .footer-info-subtext {
+		font-size: 13px;
+	}
+
+	.footer-info-subtext span {
+		display: none;
+	}
+
+	.footer-clock .footer-info-subtext {
+		font-size: 12px;
+	}
+
+	.footer-geo-card-body {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: space-around;
+	    margin-top: 30px;
+	    text-align: center;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.carousel-caption-title {
+		font-size: 50px;
+	}
+
+	.line_icon {
+		display: none;
+	}
+
+	.carousel-caption-btn {
+		margin-top: 10%;
+	}
+
+	.carousel-caption-list {
+		margin-top: 20%;
+	}
+
+	.carousel-caption-price {
+		left: 70%;
+	}
+
+	.picca-header-btn, .sushi-header-btn, .snack-header-btn, .drinks-header-btn {
+		display: none;
+	}
+
+	.picca_icon, .sushi_icon, .snack_icon, .drinks_icon {
+		width: 29px;
+		height: 29px;
+	}
+
+	.picca-header-title, .sushi-header-title, .snack-header-title, .drinks-header-title {
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+
+	.carousel-control-left-picca, .carousel-control-right-picca {
+		display: none;
+	}
+
+	.carousel-control-left-sushi, .carousel-control-right-sushi, .carousel-control-left-snack, .carousel-control-right-snack, .carousel-control-left-drinks, .carousel-control-right-drinks {
+		display: none;
+	}
+
+	.picca-header {
+		margin: 0;
+	}
+
+	.card-select-wrap, .card-select-wrap:hover {
+		width: 143px;
+		height: 38px;
+		border-radius: 19px;
+		background-color: #f7f7f7;
+		color: #2f2f2f;
+		font-size: 12px;
+		font-family: 'Montserrat-Bold';
+		font-weight: 700;
+	}
+
+	.card-select-subtext {
+		font-family: 'Montserrat-Regular';
+		font-weight: 400;
+		color: #858585;
+	}
+
+	.stock {
+		padding-bottom: 138px;
+	}
+
+	.stock-main-title {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 47px;
+		margin-top: 63px;
+	}
+
+	.carousel-control-prev-stock_2, .carousel-control-next-stock_2 {
+		height: 50px;
+		margin-top: 80%;
+	}
+
+	.carousel-control-prev-stock_2 {
+		left: 30%;
+	}
+
+	.carousel-control-next-stock_2 {
+		right: 30%;
+	}
+
+	.stock {
+		padding: 100px;
+	}
+
+	.stocks_logo_2 {
+		width: 54px;
+		height: 40px;
+		margin: 31px 0 19px 20px;
+	}
+
+	.stock-main-title {
+		margin: 0 0 30px 0;
+	}
+
+	.stock-card-text_2 {
+		margin-left: 19px;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 19.7px;
+	}
+
+	.card-select-wrap, .card-select-wrap:focus, .show > .btn-secondary.dropdown-toggle, .show > .btn-secondary.dropdown-toggle:focus {
+		width: 143px;
+		color: black;
+		height: 38px;
+		border-radius: 19px;
+		border: none;
+		box-shadow: none;
+		background-color: #f7f7f7;
+	}
+
+	.picca_sm_1, .picca_sm_2, .picca_sm_3 {
+		width: 76px;
+		height: 76px;
+		margin: 14px 20px 19px 14px;
+	}
+
+	.card-deck-picca-sm, .card-deck-sushi-sm, .card-deck-snack-sm, .card-deck-drinks-sm {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sushi-header, .snack-header, .drinks-header {
+		margin-bottom: 10px;
+	}
+
+	.card-title-picca-sm, .card-title-sushi-sm, .card-title-snack-sm, .card-title-drinks-sm {
+		font-family: 'Montserrat-Bold';
+		font-size: 14px;
+		font-weight: 700;
+		color: #272727;
+		margin: 21px 0 11px 0;
+	}
+
+	.card-text-picca-sm, .card-text-sushi-sm, .card-text-snack-sm {
+		font-family: 'Montserrat-Regular';
+		font-size: 11px;
+		font-weight: 400;
+		color: #858585;
+	}
+
+	.card-deck-picca-sm {
+		margin-top: 34px;
+	}
+
+	.card-picca-sm, .card-sushi-sm, .card-snack-sm, .card-drinks-sm {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 281px;
+		padding-bottom: 18px;
+		margin-top: 20px;
+	}
+
+	.card-body-picca-sm, .card-body-sushi-sm, .card-body-snack-sm, .card-body-drinks-sm {
+		width: 145px;
+		padding: 0;
+	}
+
+	.picca-cart-btn-sm, .picca-cart-btn-sm:hover, .sushi-cart-btn-sm, .sushi-cart-btn-sm:hover, .snack-cart-btn-sm, .snack-cart-btn-sm:hover, .drinks-cart-btn-sm, .drinks-cart-btn-sm:hover {
+		width: 101px;
+		height: 36px;
+		border-radius: 18px;
+		background-color: #9900cc;
+		font-family: 'Montserrat-Medium';
+		font-size: 13px;
+		font-weight: 500;
+		color: #ffffff;
+		line-height: 17.95px;
+	}
+
+	.picca-btn-sm, .sushi-btn-sm, .snack-btn-sm, .drinks-btn-sm {
+		width: 100%;
+		height: 46px;
+		margin-top: 10px;
+		font-family: 'Montserrat-Medium';
+		font-size: 14px;
+		font-weight: 500;
+		color: #191919;
+		padding-top: 11px;
+	}
+
+	.sushi_sm_1 {
+		width: 89px;
+		height: 52px;
+		margin: 22px 10px 33px 12px;
+	}
+
+	.sushi_sm_2 {
+		width: 72px;
+		height: 69px;
+		margin: 21px 17px 18px 21px;
+	}
+
+	.sushi_sm_3 {
+		width: 74px;
+		height: 49px;
+		margin: 24px 16px 34px 21px;
+	}
+
+	.sushi-card-price-btn-sm, .snack-card-price-btn-sm, .drinks-card-price-btn-sm {
+		width: 143px;
+		height: 38px;
+		border-radius: 19px;
+		background-color: #f7f7f7;
+		color: #2f2f2f;
+		font-family: 'Montserrat-Bold';
+		font-weight: 700;
+		font-size: 12px;
+	}
+
+	.sushi-card-price-btn-text-sm, .snack-card-price-btn-text-sm, .drinks-card-price-btn-text-sm {
+		font-family: 'Montserrat-Regular';
+		font-weight: 400;
+		color: #858585;
+	}
+
+	.snack_sm_1 {
+		width: 90px;
+		height: 54px;
+		margin: 26px 8px 22px 12px;
+	}
+
+	.snack_sm_2 {
+		width: 77px;
+		height: 58px;
+		margin: 20px 13px 24px 20px;
+	}
+
+	.snack_sm_3 {
+		width: 94px;
+		height: 56px;
+		margin: 20px 7px 26px 10px;
+	}
+
+	.drinks_sm_1 {
+		width: 27px;
+		height: 61px;
+		margin: 17px 40px 24px 44px;
+	}
+
+	.drinks_sm_2 {
+		width: 21px;
+		height: 69px;
+		margin: 17px 41px 16px 49px;
+	}
+
+	.drinks_sm_3 {
+		width: 20px;
+		height: 70px;
+		margin: 15px 43px 17px 48px;
+	}
+
+	.card-body-drinks-sm {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.card-title-drinks-sm {
+		margin: 0;
+	}
+
+	.drinks-btn-sm {
+		margin-bottom: 57px;
+	}
+
+	.picca-btn-sm, .sushi-btn-sm, .snack-btn-sm, .drinks-btn-sm {
+		margin-top: 30px;
+	}
+
+	.founder-body {
+		margin: 0;
+		padding: 20px;
+	}
+
+	.founder-title {
+		padding: 30px 0 0 50px;
+		background-size: 90%;
+		width: 100%;
+		height: 120px;
+		font-size: 30px;
+	}
+
+	.founder-subtitle {
+		font-size: 23px;
+	}
+
+	.bg_2_photo {
+		margin: 0;
+	}
+
+	.footer-main {
+		flex-direction: column;
+	}
+
+	.footer-geo-card {
+		height: 678px;
+		background-repeat: no-repeat;
+	}
+
+	.footer-geo-card-body {
+		margin: 0;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.header {
+		height: 72px;
+	}
+
+	.logo_header {
+		width: 111px;
+	}
+
+	.fone_icon_header {
+		display: none;
+	}
+
+	.header-phone {
+		width: 100%;
+	}
+
+	.header-phone-text {
+	   font-size: 14px;
+	   line-height: 10px;
+	}
+
+	.navbar {
+		z-index: 1000;
+	}
+
+	.navbar-expand-lg .navbar-nav {
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    width: 100%;
+	    justify-content: space-around;
+	}
+
+	.navbar-expand-lg .navbar-nav {
+		margin-top: 0;
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none;
+	}
+
+	.bg-top-carousel-item {
+		background: url(../img/bg_mobi.png) center center/cover no-repeat;
+		height: 370px;
+	}
+
+	.carousel-caption-slide {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 100%;
+		right: 0;
+		left: 0;
+	}
+
+	.line_icon {
+		display: none;
+	}
+
+	.carousel-control-right, .carousel-control-left {
+		justify-content: center;
+	    width: 50px;
+	    height: 55px;
+	    margin-left: 35%;
+	    margin-top: 90%;
+	}
+
+	.white_arrow_left_icon, .white_arrow_right_icon {
+		width: 9px;
+		height: 13px;
+	}
+
+	.carousel-caption-title {
+		width: 100%;
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.picca-header-btn, .sushi-header-btn, .snack-header-btn, .drinks-header-btn {
+		display: none;
+	}
+
+	.picca_icon, .sushi_icon, .snack_icon, .drinks_icon {
+		width: 29px;
+		height: 29px;
+	}
+
+	.picca-header-title, .sushi-header-title, .snack-header-title, .drinks-header-title {
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+
+	.carousel-control-left-picca, .carousel-control-right-picca {
+		display: none;
+	}
+
+	.carousel-control-left-sushi, .carousel-control-right-sushi, .carousel-control-left-snack, .carousel-control-right-snack, .carousel-control-left-drinks, .carousel-control-right-drinks {
+		display: none;
+	}
+
+	.picca-header {
+		margin: 0;
+	}
+
+	.founder {
+		background: url(../img/bg_2.png) center center/cover no-repeat;
+		height: auto;
+	}
+
+	.founder-card {
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 0 8px 0 8px;
+	}
+
+	.founder-body {
+		width: 100%;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.founder-title {
+		background: url(../img/bg_2_title.png) center center/contain no-repeat;
+		width: 100%;
+		height: 100%;
+		color: #ffffff;
+		font-size: 19px;
+		font-weight: 400;
+		padding: 43px 0 33px 25px;
+	}
+
+	.founder-subtitle {
+		font-size: 14px;
+	}
+
+	.card-select-wrap, .card-select-wrap:hover {
+		width: 143px;
+		height: 38px;
+		border-radius: 19px;
+		background-color: #f7f7f7;
+		color: #2f2f2f;
+		font-size: 12px;
+		font-family: 'Montserrat-Bold';
+		font-weight: 700;
+	}
+
+	.card-select-subtext {
+		font-family: 'Montserrat-Regular';
+		font-weight: 400;
+		color: #858585;
+	}
+	
+
+	.bg_2_photo {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.founder-text {
+	    font-size: 14px;
+	    line-height: 21px;
+	    text-align: center;
+	}
+
+	.stock {
+	    padding: 0px;
+	    padding-bottom: 138px;
+	}
+
+	.carousel-control-prev-stock_2, .carousel-control-next-stock_2 {
+		height: 50px;
+		margin-top: 80%;
+	}
+
+	.carousel-control-prev-stock_2 {
+		left: 30%;
+	}
+
+	.carousel-control-next-stock_2 {
+		right: 30%;
+	}
+
+	.stocks_logo_2 {
+		width: 54px;
+		height: 40px;
+		margin: 31px 0 19px 20px;
+	}
+
+	.stock-card-text_2 {
+		margin-left: 19px;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 19.7px;
+	}
+
+	.footer-main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logo_footer {
+	    width: 198px;
+	    margin: 52px 0 52px 0;
+	}
+
+	.footer-info-body {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 0 20px 0 20px;
+	}
+
+	.footer-info-text, .footer-info-subtext {
+		font-size: 13px;
+	}
+
+	.footer-info-subtext span {
+		display: none;
+	}
+
+	.footer-clock .footer-info-subtext {
+		font-size: 12px;
+	}
+
+	.footer-geo-card {
+		background: url(../img/footer-geo-card_mobi.png) no-repeat;
+		width: 100%;
+		height: 425px;
+	}
+
+	.footer-geo-card-body {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	}
+
+	.carousel-caption-list a {
+		font-size: 12px;
+		line-height: 0;
+	}
+
+	.carousel-caption-price {
+		background: url(../img/bg_main_price.png);
+		background-size: 100%;
+		width: 144px;
+		height: 140px;
+		left: 90px;
+		top: 80px;
+	}
+
+	.carousel-caption-subtext {
+		font-size: 12px;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+
+	.carousel-caption-text {
+		font-size: 26px;
+		line-height: 29.29px;
+	}
+
+	.carousel-caption-btn {
+		width: 172px;
+		height: 51px;
+		font-size: 17px;
+		border-radius: 26px;
+		background-color: #ffd200;
+		margin-top: 55%;
+	}
+
+	.card-select-wrap, .card-select-wrap:focus, .show > .btn-secondary.dropdown-toggle, .show > .btn-secondary.dropdown-toggle:focus {
+		width: 143px;
+		color: black;
+		height: 38px;
+		border-radius: 19px;
+		border: none;
+		box-shadow: none;
+		background-color: #f7f7f7;
+	}
+
+	.picca_sm_1, .picca_sm_2, .picca_sm_3 {
+		width: 76px;
+		height: 76px;
+		margin: 14px 20px 19px 14px;
+	}
+
+	.card-title-picca-sm, .card-title-sushi-sm, .card-title-snack-sm, .card-title-drinks-sm {
+		font-family: 'Montserrat-Bold';
+		font-size: 14px;
+		font-weight: 700;
+		color: #272727;
+		margin: 21px 0 11px 0;
+	}
+
+	.card-text-picca-sm, .card-text-sushi-sm, .card-text-snack-sm {
+		font-family: 'Montserrat-Regular';
+		font-size: 11px;
+		font-weight: 400;
+		color: #858585;
+	}
+
+	.card-deck-picca-sm {
+		margin-top: 34px;
+	}
+
+	.card-picca-sm, .card-sushi-sm, .card-snack-sm, .card-drinks-sm {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 281px;
+		padding-bottom: 18px;
+	}
+
+	.card-body-picca-sm, .card-body-sushi-sm, .card-body-snack-sm, .card-body-drinks-sm {
+		width: 145px;
+		padding: 0;
+	}
+
+	.picca-cart-btn-sm, .picca-cart-btn-sm:hover, .sushi-cart-btn-sm, .sushi-cart-btn-sm:hover, .snack-cart-btn-sm, .snack-cart-btn-sm:hover, .drinks-cart-btn-sm, .drinks-cart-btn-sm:hover {
+		width: 101px;
+		height: 36px;
+		border-radius: 18px;
+		background-color: #9900cc;
+		font-family: 'Montserrat-Medium';
+		font-size: 13px;
+		font-weight: 500;
+		color: #ffffff;
+		line-height: 17.95px;
+	}
+
+	.picca-btn-sm, .sushi-btn-sm, .snack-btn-sm, .drinks-btn-sm {
+		width: 100%;
+		height: 46px;
+		margin-top: 10px;
+		font-family: 'Montserrat-Medium';
+		font-size: 14px;
+		font-weight: 500;
+		color: #191919;
+		padding-top: 11px;
+	}
+
+	.sushi_sm_1 {
+		width: 89px;
+		height: 52px;
+		margin: 22px 10px 33px 12px;
+	}
+
+	.sushi_sm_2 {
+		width: 72px;
+		height: 69px;
+		margin: 21px 17px 18px 21px;
+	}
+
+	.sushi_sm_3 {
+		width: 74px;
+		height: 49px;
+		margin: 24px 16px 34px 21px;
+	}
+
+	.sushi-card-price-btn-sm, .snack-card-price-btn-sm, .drinks-card-price-btn-sm {
+		width: 143px;
+		height: 38px;
+		border-radius: 19px;
+		background-color: #f7f7f7;
+		color: #2f2f2f;
+		font-family: 'Montserrat-Bold';
+		font-weight: 700;
+		font-size: 12px;
+	}
+
+	.sushi-card-price-btn-text-sm, .snack-card-price-btn-text-sm, .drinks-card-price-btn-text-sm {
+		font-family: 'Montserrat-Regular';
+		font-weight: 400;
+		color: #858585;
+	}
+
+	.snack_sm_1 {
+		width: 90px;
+		height: 54px;
+		margin: 26px 8px 22px 12px;
+	}
+
+	.snack_sm_2 {
+		width: 77px;
+		height: 58px;
+		margin: 20px 13px 24px 20px;
+	}
+
+	.snack_sm_3 {
+		width: 94px;
+		height: 56px;
+		margin: 20px 7px 26px 10px;
+	}
+
+	.drinks_sm_1 {
+		width: 27px;
+		height: 61px;
+		margin: 17px 40px 24px 44px;
+	}
+
+	.drinks_sm_2 {
+		width: 21px;
+		height: 69px;
+		margin: 17px 41px 16px 49px;
+	}
+
+	.drinks_sm_3 {
+		width: 20px;
+		height: 70px;
+		margin: 15px 43px 17px 48px;
+	}
+
+	.card-body-drinks-sm {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.card-title-drinks-sm {
+		margin: 0;
+	}
+
+	.drinks-btn-sm {
+		margin-bottom: 57px;
+	}
+}
