@@ -1121,8 +1121,8 @@ a:hover {
 	}
 
 	.navbar-expand-lg .navbar-nav {
-	    -ms-flex-direction: column;
-	    flex-direction: column;
+	    -ms-flex-direction: row;
+	    flex-direction: row;
 	    width: 100%;
 	    justify-content: space-around;
 	}
@@ -1171,6 +1171,14 @@ a:hover {
 		width: 100%;
 		font-size: 26px;
 		text-align: center;
+	}
+	
+	.carousel-caption-btn {
+	    width: 172px;
+	    height: 51px;
+	    font-size: 17px;
+	    border-radius: 26px;
+	    margin-top: 43%;
 	}
 
 	.picca-header-btn, .sushi-header-btn, .snack-header-btn, .drinks-header-btn {
