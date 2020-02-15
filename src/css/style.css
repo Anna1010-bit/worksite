@@ -1365,15 +1365,6 @@ a:hover {
 		line-height: 29.29px;
 	}
 
-	.carousel-caption-btn {
-		width: 172px;
-		height: 51px;
-		font-size: 17px;
-		border-radius: 26px;
-		background-color: #ffd200;
-		margin-top: 55%;
-	}
-
 	.card-select-wrap, .card-select-wrap:focus, .show > .btn-secondary.dropdown-toggle, .show > .btn-secondary.dropdown-toggle:focus {
 		width: 143px;
 		color: black;
